@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./home/Home";
-import { Navigate, Route, Routes } from "react-router-dom";
-import Courses from "./courses/Courses";
-import Signup from "./components/Signup";
+import Home from "./home/home";
+import { Navigate,Route,Routes } from "react-router-dom";
+import Courses from "./courses/courses";
+import Signup from "./components/signup";
 import { Toaster } from "react-hot-toast";
-import { useAuth } from "./context/AuthProvider";
+import { useAuth } from "./components/context/authprovider";
 
 function App() {
   const [authUser, setAuthUser] = useAuth();

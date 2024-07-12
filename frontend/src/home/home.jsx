@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Banner from "../components/Banner";
-import Freebook from "../components/Freebook";
-import Footer from "../components/Footer";
+import Navbar from "../components/navbar";
+import Banner from "../components/banner";
+import Freebook from "../components/freebook";
+import Footer from "../components/footer";
 
 function Home() {
   return (
